@@ -5,6 +5,8 @@
 
 use std::collections::HashSet;
 
+pub mod winners;
+
 /// Result of corpus minimization.
 #[derive(Debug)]
 pub struct CminResult {
